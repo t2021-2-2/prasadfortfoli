@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+<!--<![endif]-->
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-86455727-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-86455727-2');
+    </script>
+    <title>Hey There!</title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Responsive HTML5 Website Landing Page for Developers">
+    <meta name="author" content="Xiaoying Riley at 3rd Wave Media">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
+
+    <!-- github calendar css -->
+    <link rel="stylesheet" href="assets/plugins/github-calendar/dist/github-calendar.css" />
+    <!-- github acitivity css -->
+    <link rel="stylesheet" href="assets/plugins/github-activity/src/github-activity.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
+
+    <!-- Theme CSS -->
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style>
+     @keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slide {
+    0% { transform: translateX(0%); }
+    20% { transform: translateX(-100%); }
+    40% { transform: translateX(-200%); }
+    60% { transform: translateX(-300%); }
+    80% { transform: translateX(-400%); }
+    100% { transform: translateX(0%); }
+}
+.footer a:hover {
+    color: #00acee; /* Change color (example: Twitter Blue) */
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+    </style>
+
+</head>
+
+<body style="font-family: 'Lato', arial, sans-serif; line-height: 1.6; color: #555;background: #2980b9;background: -webkit-linear-gradient(to right, #2980b9, #6dd5fa, #ffffff);background: linear-gradient(to right, #2980b9, #6dd5fa, #ffffff);">
+    <!-- ******HEADER****** -->
+    <header class="header" style="padding: 20px 0; background: #00416a;background: -webkit-linear-gradient(to right, #00416a, #e4e5e6);background: linear-gradient(to right, #00416a, #e4e5e6); border-top: 5px solid #deeef8; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);">
+        <div class="container">
+            <img class="profile-image img-responsive pull-left" src="assets/images/prasadm.jpeg" alt="Harshit Dwivedi" style="margin-right: 30px; border-radius: 50%; width: 140px; height: 140px; object-fit: cover;" />
+            <div class="profile-content pull-left">
+                <h1 class="name" style="color: #ffffff; font-size: 2.5em; margin-top: 10px; margin-bottom: 0.2em;">Prasad M</h1>
+                <h2 class="desc" style="color: #ffffff; font-size: 1.2em; margin-bottom: 1em;"> Front-End Developer </h2>
+                <ul class="social list-inline">
+                    <li><a href="https://twitter.com/daggerdwivedi" style="background: #ecf0f1; width: 40px; height: 40px; border-radius: 50%; color: #34495e; text-align: center; line-height: 40px; transition: all 0.3s ease; display: inline-block; margin-right: 5px;"
+                    ><i class="fa fa-twitter" style="font-size: 20px;"></i></a></li>
+                    <li><a href="https://plus.google.com/u/0/+HarshitDwivedi_dagger" style="background: #ecf0f1; width: 40px; height: 40px; border-radius: 50%; color: #34495e; text-align: center; line-height: 40px; transition: all 0.3s ease; display: inline-block; margin-right: 5px;"
+                    ><i class="fa fa-google-plus" style="font-size: 20px;"></i></a></li>
+                    <li><a href="https://in.linkedin.com/in/hadwivedi" style="background: #ecf0f1; width: 40px; height: 40px; border-radius: 50%; color: #34495e; text-align: center; line-height: 40px; transition: all 0.3s ease; display: inline-block; margin-right: 5px;"
+                    ><i class="fa fa-linkedin" style="font-size: 20px;"></i></a></li>
+                    <li><a href="https://github.com/the-dagger" style="background: #ecf0f1; width: 40px; height: 40px; border-radius: 50%; color: #34495e; text-align: center; line-height: 40px; transition: all 0.3s ease; display: inline-block; margin-right: 5px;"
+                    ><i class="fa fa-github-alt" style="font-size: 20px;"></i></a></li>
+                </ul>
+            </div>
+            <!--//profile-->
+            <a class="btn btn-cta-primary pull-right" href="assets/files/prasadpujarResume.pdf" target="_blank" style="background: #3498db; border: 1px solid #3498db; color: #fff; font-weight: 600; text-transform: uppercase; padding: 10px 20px; border-radius: 5px; transition: background-color 0.3s ease;"
+               onmouseover="this.style.backgroundColor='#2980b9'; this.style.borderColor='#2980b9'"
+               onmouseout="this.style.backgroundColor='#3498db'; this.style.borderColor='#3498db'">
+                <i class="fa fa-paper-plane"></i> Resume
+            </a>
+        </div>
+        <!--//container-->
+    </header>
+    <!--//header-->
+
+    <div class="container sections-wrapper" style="padding-top: 60px; padding-bottom: 60px;">
+        <div class="row">
+            <div class="primary col-md-8 col-sm-12 col-xs-12">
+                <section class="about section" style="display: flex; justify-content: center; align-items: center; padding: 50px 15px; background: linear-gradient(135deg, #ecf0f1, #d5e4ea);">
+                    <div class="section-inner" style="max-width: 800px; background: rgba(255, 255, 255, 0.15); backdrop-filter: blur(10px); padding: 40px; border-radius: 12px; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); text-align: center; transform: translateY(20px); opacity: 0; animation: fadeInUp 1s ease-out forwards;">
+                        <h2 class="heading" style="font-size: 2.2em; font-weight: 700; color: #2c3e50; margin-bottom: 20px; border-bottom: 3px solid #3498db; display: inline-block; padding-bottom: 8px; opacity: 0; animation: fadeIn 1s ease-out 0.5s forwards;">About Me</h2>
+                        <div class="content">
+                            <p style="font-size: 1.2em; line-height: 1.7; color: #34495e; opacity: 0; animation: fadeInUp 1s ease-out 0.7s forwards;">
+                                I’m <strong>Prasad M</strong>, a passionate Front-End Developer with over a year of experience building high-performance, user-centric web applications. Proficient in <strong>HTML, CSS3, JavaScript, and modern frameworks like Material UI and Bootstrap</strong>, I specialize in creating seamless, responsive designs. 
+                            </p>
+                            <p style="font-size: 1.2em; line-height: 1.7; color: #34495e; opacity: 0; animation: fadeInUp 1s ease-out 0.9s forwards;">
+                                With expertise in translating <strong>Figma prototypes</strong> into pixel-perfect, interactive experiences, I focus on delivering <strong>scalable and innovative solutions</strong> that enhance user engagement and drive business growth.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+                <!--//section-->
+
+                <section class="latest section" style="display: flex; justify-content: center; align-items: center; padding: 50px 15px; background: linear-gradient(135deg, #ecf0f1, #d5e4ea);">
+                    <div class="section-inner" style="max-width: 900px; background: rgba(255, 255, 255, 0.15); backdrop-filter: blur(10px); padding: 40px; border-radius: 12px; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); text-align: center; opacity: 0; animation: fadeInUp 1s ease-out forwards;">
+                        <h2 class="heading" style="font-size: 2.2em; font-weight: 700; color: #2c3e50; margin-bottom: 20px; border-bottom: 3px solid #3498db; display: inline-block; padding-bottom: 8px; animation: fadeIn 1s ease-out 0.5s forwards;">Live Project</h2>
+                        
+                        <p style="font-size: 20px; font-weight: bold; color: #2c3e50; background: #f4f4f4; padding: 10px; border-radius: 5px; margin-bottom: 20px; animation: fadeInUp 1s ease-out 0.7s forwards;">GM UNIVERSITY DAVANGERE</p>
+                        
+                        <!-- Image Slider -->
+                        <div style="width: 100%; overflow: hidden; position: relative; background: #000; height: 300px; border-radius: 8px;">
+                            <div id="slider" style="display: flex; width: 200%; animation: slide 30s linear infinite;">
+                                <img src="assets/images/projects/gm1.png" alt="Image 1" style="width: 100%; height: 300px; object-fit: cover;">
+                                <img src="assets/images/projects/gm2.png" alt="Image 2" style="width: 100%; height: 300px; object-fit: cover;">
+                                <img src="assets/images/projects/gm3.png" alt="Image 3" style="width: 100%; height: 300px; object-fit: cover;">
+                                <img src="assets/images/projects/gm4.png" alt="Image 4" style="width: 100%; height: 300px; object-fit: cover;">
+                                <img src="assets/images/projects/gm5.png" alt="Image 5" style="width: 100%; height: 300px; object-fit: cover;">
+                                <img src="assets/images/projects/gm7.png" alt="Image 6" style="width: 100%; height: 300px; object-fit: cover;">
+                            </div>
+                        </div>
+                
+                        <div class="desc text-left" style="margin-top: 20px; text-align: left;">
+                            <p style="font-size: 1.1em; line-height: 1.6; color: #34495e; animation: fadeInUp 1s ease-out 0.9s forwards;">
+                                The Open Event Web Application consolidates event details into a single platform, offering seamless UI/UX and real-time updates. Built using <strong>Material UI, Bootstrap, HTML5, CSS3, JavaScript</strong>, and backed by a <strong>PHP-based app generator</strong>, it ensures an intuitive and responsive experience across devices.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+                
+                <section class="experience section" style="display: flex; justify-content: center; align-items: center; padding: 50px 15px; background: linear-gradient(135deg, #ecf0f1, #d5e4ea);">
+                    <div class="section-inner" style="max-width: 900px; background: rgba(255, 255, 255, 0.15); backdrop-filter: blur(10px); padding: 40px; border-radius: 12px; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); opacity: 0; animation: fadeInUp 1s ease-out forwards;">
+                        <h2 class="heading" style="font-size: 2.2em; font-weight: 700; color: #2c3e50; margin-bottom: 20px; border-bottom: 3px solid #3498db; display: inline-block; padding-bottom: 8px; animation: fadeIn 1s ease-out 0.5s forwards;">Work Experience</h2>
+                        
+                        <div class="content" style="text-align: left;">
+                            <div class="item" style="margin-bottom: 30px; animation: fadeInUp 1s ease-out 0.7s forwards;">
+                                <h3 class="title" style="font-size: 18px; margin-top: 0; margin-bottom: 5px; line-height: 1.5;">
+                                    Front-End Developer - <span class="place"><a href="#" style="color: #3498db; text-decoration: none; transition: color 0.3s ease;" onmouseover="this.style.color='#2980b9'" onmouseout="this.style.color='#3498db'">GEM Ventures LLP</a></span> 
+                                    <span class="year" style="color: #999; font-weight: normal;">(Nov 2023 - Present)</span>
+                                </h3>
+                                <p style="font-size: 1.1em; line-height: 1.6; color: #555;">
+                                    As a Front-End Developer, I focus on <strong>UI/UX design</strong> to ensure smooth, intuitive, and visually appealing experiences. My work includes <strong>responsive web applications</strong> using frameworks like <strong>Bootstrap, Material UI</strong>, and integrating Figma designs into <strong>pixel-perfect</strong> web interfaces.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <!--//primary-->
+            <div class="secondary col-md-4 col-sm-12 col-xs-12">
+                <aside class="info aside section" style="margin-bottom: 30px;">
+                    <div class="section-inner" style="background: linear-gradient(135deg, #ecf0f1, #d5e4ea); padding: 30px; border-radius: 5px; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);">
+                        <h2 class="heading sr-only">Basic Information</h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+                                <li style="margin-bottom: 15px;"><i class="fa fa-map-marker" style="margin-right: 15px; color: #ccd1d6;"></i><span class="sr-only">Location:</span>BANGLORE kARNATAKA INDIA</li>
+                                <li style="margin-bottom: 15px;"><i class="fa fa-envelope-o" style="margin-right: 15px; color: #ccd1d6; font-size: 14px;"></i><span class="sr-only">Email:</span><a href="#">PM976446@gmail.com</a></li>
+                                <li style="margin-bottom: 15px;">
+                                    <i class="fa fa-phone" style="margin-right: 15px; color: #ccd1d6;"></i>
+                                    <span class="sr-only">Phone:</span>
+                                    <a href="tel:+1234567890">+91 7483685163</a>
+                                  </li>
+                            </ul>
+                        </div>
+                        <!--//content-->
+                    </div>
+                    <!--//section-inner-->
+                </aside>
+                <!--//aside-->
+
+                <aside class="skills aside section" style="margin-bottom: 30px;">
+                    <div class="section-inner" style="background: linear-gradient(135deg, #ecf0f1, #d5e4ea); padding: 30px; border-radius: 5px; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);">
+                        <h2 class="heading" style="margin-top: 0; margin-bottom: 30px; color: #34495e; font-size: 2em; font-weight: 600; border-bottom: 2px solid #3498db; padding-bottom: 0.5em;">Skills</h2>
+                        <div class="content">
+                            <p class="intro" style="margin-bottom: 30px;">
+                                My skillset consists mainly of Front End Development .</p>
+                            <div class="skillset">
+
+                                <div class="item" style="margin-bottom: 30px;">
+                                    <h3 class="level-title" style="font-size: 16px; position: relative; margin-top: 0; margin-bottom: 10px;">HTML<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to add more info..." style="color: #ccd1d6; font-size: 14px; font-weight: 400; font-family: 'Lato', arial, sans-serif; position: absolute; right: 0; top: 0;"></span></h3>
+                                    <div class="level-bar" style="height: 15px; background: #e8e8e8; border-radius: 5px; overflow: hidden;">
+                                        <div class="level-bar-inner" data-level="90%" style="height: 15px; background: #3498db; width: 90%; border-radius: 5px;">
+                                        </div>
+                                    </div>
+                                    <!--//level-bar-->
+                                </div>
+                                <!--//item-->
+
+                                <div class="item" style="margin-bottom: 30px;">
+                                    <h3 class="level-title" style="font-size: 16px; position: relative; margin-top: 0; margin-bottom: 10px;">CSS</h3>
+                                    <div class="level-bar" style="height: 15px; background: #e8e8e8;border-radius: 5px; overflow: hidden;">
+                                        <div class="level-bar-inner" data-level="80%" style="height: 15px; background: #3498db;">
+                                        </div>
+                                    </div>
+                                    <!--//level-bar-->
+                                </div>
+
+                                <div class="item" style="margin-bottom: 30px;">
+                                    <h3 class="level-title" style="font-size: 16px; position: relative; margin-top: 0; margin-bottom: 10px;">PHP</h3>
+                                    <div class="level-bar" style="height: 15px; background: #e8e8e8;border-radius: 5px; overflow: hidden;">
+                                        <div class="level-bar-inner" data-level="80%" style="height: 15px; background: #3498db;">
+                                        </div>
+                                    </div>
+                                    <!--//level-bar-->
+                                </div>
+                                <!--//item-->
+
+                                <div class="item" style="margin-bottom: 30px;">
+                                    <h3 class="level-title" style="font-size: 16px; position: relative; margin-top: 0; margin-bottom: 10px;">LARAVEL</h3>
+                                    <div class="level-bar" style="height: 15px; background: #e8e8e8;border-radius: 5px; overflow: hidden;">
+                                        <div class="level-bar-inner" data-level="75%" style="height: 15px; background: #3498db;">
+                                        </div>
+                                    </div>
+                                    <!--//level-bar-->
+                                </div>
+                                <!--//item-->
+
+                                <div class="item" style="margin-bottom: 30px;">
+                                    <h3 class="level-title" style="font-size: 16px; position: relative; margin-top: 0; margin-bottom: 10px;">Angular</h3>
+                                    <div class="level-bar" style="height: 15px; background: #e8e8e8;border-radius: 5px; overflow: hidden;">
+                                        <div class="level-bar-inner" data-level="70%" style="height: 15px; background: #3498db">
+                                        </div>
+                                    </div>
+                                    <!--//level-bar-->
+                                </div>
+                                <!--//item-->
+
+                                <!-- <p><a class="more-link" href="#"><i class="fa fa-external-link"></i> More on Coderwall</a></p> -->
+                            </div>
+                        </div>
+                        <!--//content-->
+                    </div>
+                    <!--//section-inner-->
+                </aside>
+               
+
+                <aside class="education aside section" style="margin-bottom: 30px;">
+                    <div class="section-inner" style="background: linear-gradient(135deg, #ecf0f1, #d5e4ea); padding: 30px; border-radius: 5px; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);">
+                        <h2 class="heading" style="margin-top: 0; margin-bottom: 30px; color: #34495e; font-size: 2em; font-weight: 600; border-bottom: 2px solid #3498db; padding-bottom: 0.5em;">Education</h2>
+                        <div class="content">
+                            <div class="item" style="margin-bottom: 30px;">
+                                <h3 class="title" style="font-size: 16px; margin-top: 0;"><i class="fa fa-graduation-cap"></i> B-Tech,Electic and  Electronics </h3>
+                                <h4 class="university" style="font-family: 'Lato', arial, sans-serif; font-size: 13px; color: #999; font-weight: 600; padding-left: 25px;">Sri Jagadguru Murugarajendra Institute of Technology Chitradurga, Karnataka 577501  <span class="year" style="color: #b0b7bf; font-weight: 500;">(pass out - 2021)</span></h4>
+                            </div>
+                            <!--//item-->
+                            <div class="item" style="margin-bottom: 30px;">
+                                <h3 class="title" style="font-size: 16px; margin-top: 0;"><i class="fa fa-certificate"></i>  Diploma ,Electic and  Electronics</h3>
+                                <h4 class="university" style="font-family: 'Lato', arial, sans-serif; font-size: 13px; color: #999; font-weight: 600; padding-left: 25px;">gnana vikasa Polytechnic   Chitradurga, Karnataka 577501
+                                    <span class="year" style="color: #b0b7bf; font-weight: 500;">(pass out - 2014)</span></h4>
+                            </div>
+                            <!--//item-->
+                            <div class="item" style="margin-bottom: 30px;">
+                                <h3 class="title" style="font-size: 16px; margin-top: 0;">
+                                    <i class="fa fa-certificate"></i> Sslc
+                                </h3>
+                                <h4 class="university" style="font-family: 'Lato', arial, sans-serif; font-size: 13px; color: #999; font-weight: 600; padding-left: 25px;">
+                                    <i class="fa fa-graduation-cap"></i> Eshwaramma  ENGLISH H.S-P.J EXTN,DVG Karnataka 577001
+                                    <span class="year" style="color: #b0b7bf; font-weight: 500;">(Pass out - 2010)</span>
+                                </h4>
+                            </div>
+                        </div>
+                        <!--//content-->
+                    </div>
+                    <!--//section-inner-->
+                </aside>
+           
+
+                <aside class="languages aside section" style="margin-bottom: 30px;">
+                    <div class="section-inner" style="background: linear-gradient(135deg, #ecf0f1, #d5e4ea); padding: 30px; border-radius: 5px; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);">
+                        <h2 class="heading" style="margin-top: 0; margin-bottom: 30px; color: #34495e; font-size: 2em; font-weight: 600; border-bottom: 2px solid #3498db; padding-bottom: 0.5em;">Languages</h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+                                <li class="item" style="margin-bottom: 15px;">
+                                    <span class="title" style="color: #778492;"><strong>Kannada:</strong></span>
+                                    <span class="level" style="color: #999;">Native Speaker <br class="visible-xs"/><i class="fa fa-star" style="color: #3498db;"></i> <i class="fa fa-star" style="color: #3498db;"></i> <i class="fa fa-star" style="color: #3498db;"></i> <i class="fa fa-star" style="color: #3498db;"></i> <i class="fa fa-star" style="color: #3498db;"></i> </span>
+                                </li>
+                                <!--//item-->
+                                <li class="item" style="margin-bottom: 15px;">
+                                    <span class="title" style="color: #778492;"><strong>English:</strong></span>
+                                    <span class="level" style="color: #999;">Professional Proficiency <br class="visible-sm visible-xs"/><i class="fa fa-star" style="color: #3498db;"></i> <i class="fa fa-star" style="color: #3498db;"></i> <i class="fa fa-star" style="color: #3498db;"></i> <i class="fa fa-star-half" style="color: #3498db;"></i></span>
+                                </li>
+                                <!--//item-->
+                            </ul>
+                        </div>
+                        <!--//content-->
+                    </div>
+                    <!--//section-inner-->
+                </aside>
+               
+
+
+                <aside class="list conferences aside section" style="margin-bottom: 30px;">
+                    <div class="section-inner" style="background: linear-gradient(135deg, #ecf0f1, #d5e4ea); padding: 30px; border-radius: 5px; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);">
+                        <h2 class="heading" style="margin-top: 0; margin-bottom: 30px; color: #34495e; font-size: 2em; font-weight: 600; border-bottom: 2px solid #3498db; padding-bottom: 0.5em;">Other Activities</h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+                                <li><i class="fa fa-code"></i> <a href="https://www.codepen.io/" target="_blank" style="color: #778492;">CodePen</a> Contributor</li>
+                                <li><i class="fa fa-users"></i> <a href="https://developer.mozilla.org/" target="_blank" style="color: #778492;">MDN Web Docs</a> Community Contributor</li>
+                                <li><i class="fa fa-meetup"></i> <a href="https://www.meetup.com/topics/frontend/" target="_blank" style="color: #778492;">Front-End Meetups & Conferences</a> Attendee</li>
+                                <li><i class="fa fa-lightbulb"></i> <a href="https://dribbble.com/" target="_blank" style="color: #778492;">Dribbble</a> UI/UX Design Explorer</li>
+                                <li><i class="fa fa-chalkboard-teacher"></i> Front-End Mentor & Blogger at <a href="https://dev.to/" target="_blank" style="color: #778492;">DEV Community</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </aside>
+                
+              
+
+            </div>
+            <!--//secondary-->
+        </div>
+        <!--//row-->
+    </div>
+    <!--//masonry-->
+
+    <!-- ******FOOTER****** -->
+    <!--//masonry-->
+
+    <footer class="footer" style="background: #1e1e1e; color: #fff; padding: 20px 0; font-family: Arial, sans-serif;">
+        <div class="container text-center">
+            <p style="font-size: 18px; margin-bottom: 10px;">&copy; 2025 <strong>Prasad M</strong> | Front-End Developer</p>
+
+          
+        </div>
+    </footer>
+    
+    <!-- Add FontAwesome -->
+
+
+
+    <!-- Javascript -->
+    <script type="text/javascript" src="assets/plugins/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/jquery-rss/dist/jquery.rss.min.js"></script>
+    <!-- github calendar plugin -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/es6-promise/3.0.2/es6-promise.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fetch/0.10.1/fetch.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/github-calendar/dist/github-calendar.min.js"></script>
+    <!-- github activity plugin -->
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/github-activity/src/github-activity.js"></script>
+    <!-- custom js -->
+    <script type="text/javascript" src="assets/js/main.js"></script>
+</body>
+
+</html>
